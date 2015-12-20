@@ -1,6 +1,6 @@
 <?php
 
-namespace Savion;
+namespace Pie;
 
 use pocketmine\Player;
 use pocketmine\Server;
@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener{
 		@mkdir($this->getDataFolder());
 		$this->config = new Config($this->getDataFolder()."banned-players.txt", Config::ENUM, array());
 		$this->config->save();
-		$this->getServer()->getLogger()->info("[UUIDBanning]Loaded!");
+		$this->getServer()->getLogger()->info("[SecureBan]Loaded!");
 	}
 	
 	public function onCommand(CommandSender $sender, Command $cmd, $label, array $args) {
@@ -34,13 +34,13 @@ class Main extends PluginBase implements Listener{
                 $target = $this->getServer()->getPlayer($name);
                 if($sender instanceof Player){
                 if($args[0] === null){
-                $sender->sendMessage("please do /uuidban (player name)");
+                $sender->sendMessage("Please do /uuidban (player name)");
                 return false;
                 
                 }
                 
                 if($target === null){
-                	$sender->sendMessage("that player is not online!");
+                	$sender->sendMessage("That player is not online!");
                 	return false;
                 	
                 }
