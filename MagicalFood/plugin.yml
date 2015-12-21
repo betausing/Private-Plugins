@@ -1,0 +1,6 @@
+name: MagicalFood
+main: Pie\MagicalFood\Main
+version: "1.0.0"
+api: [1.8.0]
+author: PieShakes
+description: Tap any food on the ground to eat it like magic!
