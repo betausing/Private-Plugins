@@ -1,0 +1,53 @@
+# MagicalFood by Pie
+
+# Notes:
+# Please place your message inside the double apostrophe.
+
+#Enable the plugin? Change it to "true" or "false"
+enabled: true
+
+#Allow players to eat food the normal way. (No taping it)
+eat-food-normally: true
+
+# If you don't know the algorithm, don't edit this part.
+# Mushroom Stew
+health-earned-stew: 6
+allow-message-stew: true
+# Only edit this if you set allow-message-stew to true. (true by default)
+message-stew: "+3 hearts!"
+
+# Steak
+health-earned-steak: 8
+allow-message-steak: true
+# Only edit this if you set allow-message-steak to true. (true by default)
+message-steak: "+4 hearts!"
+
+# Bread
+health-earned-bread: 5
+allow-message-bread: true
+# Only edit this if you set allow-message-bread to true. (true by default)
+message-bread: "+3 hearts!"
+
+# Melon
+health-earned-melon: 2
+allow-message-melon: true
+# Only edit this if you set allow-message-melon to true. (true by default)
+message-melon: "+1 heart!"
+
+# Cooked Chicken
+health-earned-chicken: 6
+allow-message-chicken: true
+# Only edit this if you set allow-message-chicken to true. (true by default)
+message-chicken: "+3 hearts!"
+
+# Baked Potato
+health-earned-potato: 5
+allow-message-potato: true
+# Only edit this if you set allow-message-potato to true. (true by default)
+message-potato: "+3 hearts!"
+
+# Cooked Porkchop
+health-earned-porkchop: 8
+allow-message-porkchop: true
+# Only edit this if you set allow-message-potato to true. (true by default)
+message-porkchop: "+4 hearts!"
