@@ -1,0 +1,9 @@
+name: AdvancedPvP
+main: Pie\AdvancedPvP\Main
+version: 1.1-beta
+api: 1.13.0
+dependent: EconomyAPI
+load: STARTUP
+author: Pie
+description: Get effects like money when killing someone.
+
